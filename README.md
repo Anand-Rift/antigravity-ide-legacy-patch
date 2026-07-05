@@ -26,11 +26,7 @@ Because it utilizes **user-space emulation** rather than a heavy full-system vir
 Getting up and running takes less than 10 seconds. Open your terminal and run the following commands:
 
 ```bash
-curl -O https://raw.githubusercontent.com/Anand-Rift/antigravity-ide-legacy-patch/main/patch_antigravity.sh
-
-chmod +x patch_antigravity.sh
-
-./patch_antigravity.sh
+curl -sSL https://raw.githubusercontent.com/Anand-Rift/antigravity-ide-legacy-patch/main/patch_antigravity.sh | bash
 ```
 
 
