@@ -33,7 +33,9 @@ chmod +x patch_antigravity.sh
 ./patch_antigravity.sh
 ```
 
-#📜 Legal Disclaimer & Rights
+
+# 📜 Legal Disclaimer & Rights
+
 
 ⚠️ IMPORTANT NOTICE: * NOT ASSOCIATED WITH GOOGLE: This utility patch script is a completely independent, open-source project created by community developers. It is NOT an official product of Google LLC, nor is it endorsed, sponsored, or affiliated with Google in any capacity.
  NO COPYRIGHTED CODE DISTRIBUTED: This repository does not bundle, host, mirror, or distribute any proprietary closed-source application binaries or intellectual property belonging to Google.
