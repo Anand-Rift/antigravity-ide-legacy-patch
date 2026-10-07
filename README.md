@@ -10,7 +10,7 @@ Modern development engines and language servers are frequently pre-compiled targ
 * **The Symptom:** When launching Antigravity IDE on an older generation processor, the backend Go binary (`language_server_linux_x64`) instantly crashes on startup with an `Illegal instruction (core dumped)` or `SIGILL` signal.
 * **The Reason:** The binary contains pre-compiled instruction pathways (specifically requiring `AES-NI`) that older hardware transistors cannot physically interpret.
 
-### 🛠️ The Surgical Bypass
+###  the tool ... what to name this point? 
 This tool implements an elegant, zero-overhead hardware workaround:
 1. It automatically detects your Linux distribution package manager (`pacman`, `apt`, or `dnf`).
 2. It ensures `qemu-x86_64` (user-space emulation) is installed on your system.
