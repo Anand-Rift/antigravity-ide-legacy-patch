@@ -1,4 +1,4 @@
-
+#made by Anand-Rift ...atleast leave a star on github if it works (it will)..... (normally you shouldnt read this..)
 set -e
 
 RED='\033[0;31m'
@@ -6,7 +6,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
 BLUE='\033[0;34m'
 NC='\033[0m'
-# Ayo! Why You Looking At Source code??? You dont trust me???? WTF.aNyWaY.
+# Ayo! Why You Looking At Source code??? You dont trust me??
 echo -e "${BLUE}===================================================${NC}"
 echo -e "${BLUE}     Antigravity Language Server CPU Patch Tool    ${NC}"
 echo -e "${BLUE}===================================================${NC}"
@@ -26,9 +26,9 @@ if ! command -v qemu-x86_64 &> /dev/null; then
     else
         echo -e "${RED}[-][Error] Unsupported distribution. Please install 'qemu-user' or 'qemu-x86_64' manually and run this script again.${NC}"
         exit 1
+# i mean if you face this shi it just means you on nixos or alpine... so bro install qemu user by using the package manager and run this shi again and it will do it.....
     fi
 fi
-#Subscribe to BED-DESK-ARCHITECT on YOUTUBE!!!!
 if command -v qemu-x86_64 &> /dev/null; then
     echo -e "${GREEN}[+] qemu-x86_64 is installed and ready.${NC}"
 else
@@ -41,7 +41,7 @@ COMMON_PATHS=(
     "/usr/lib/antigravity-ide/resources/app/extensions/antigravity/bin/language_server_linux_x64"
     "$HOME/.local/share/antigravity-ide/resources/app/extensions/antigravity/bin/language_server_linux_x64"
 )
-
+# good luck reading thsi shi😭
 TARGET_BIN=""
 
 for path in "${COMMON_PATHS[@]}"; do
