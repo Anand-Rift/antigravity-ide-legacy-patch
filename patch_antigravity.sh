@@ -89,4 +89,5 @@ sudo chown root:root "$TARGET_BIN" 2>/dev/null || true
 
 echo -e "${GREEN}[+] Patch successfully applied! Please restart your Antigravity IDE.${NC}"
 echo -e "${BLUE}===================================================${NC}"
-#Since you read all you should have realised its NOT A VIRUS BROTHER! .....
+#Yes i used ai to enhance the messy code ... dotn judge me it took me 1 hour to find out that it was SGILL crash bc my pc slow it takes 10 sec just to open terminal.
+#...and opening the application menu freezes the system
